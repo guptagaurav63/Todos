@@ -7,15 +7,23 @@
   "dependencies": {
     "@material-ui/core": "3.3.2",
     "@material-ui/icons": "3.0.1",
-    "react": "16.7.0-alpha.0 - next",
-    "react-dom": "16.7.0-alpha.0 - next",
-    "react-scripts": "2.0.3"
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-scripts": "2.0.3",
+    "redux-form": "8.3.6",
+    "react-redux": "7.2.0",
+    "redux": "4.0.5",
+    "enzyme-adapter-configure": "1.0.2",
+    "enzyme-adapter-react-16": "1.15.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "react-test-renderer": "16.13.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "browserslist": [
